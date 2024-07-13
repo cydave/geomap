@@ -1,6 +1,6 @@
 .PHONY: all
 all:
-	go build -o ./bin/geomap ./cmd/geomap/main.go
+	go build -ldflags='-s -w' -o ./bin/geomap ./cmd/geomap/main.go
 
 .PHONY: lint
 lint:
