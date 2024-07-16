@@ -13,10 +13,12 @@ You'll need a copy of MaxMind's GeoIP database.
 
 ## Credits
 
-I don't own shit and this repository can be used as you would like. As this
-project uses third-party software, be sure to check their license and terms of
-service.
+You can use this repository you'd like.
+
+As this project uses third-party software, be sure to check their license and
+terms of service.
 
 + https://leafletjs.com/
 + https://www.openstreetmap.org/about
 + https://www.maxmind.com/en/home
++ https://github.com/oschwald/maxminddb-golang
