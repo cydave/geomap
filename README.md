@@ -3,7 +3,7 @@
 Pipe a list of IP addresses into the binary to plot them on top of a map:
 
 ```bash
-curl -s 'https://blocklists.0dave.ch/ssh.txt' | ./bin/geomap  ~/Downloads/GeoIP2-City.mmdb >/tmp/out.html && sleep 1 && firefox /tmp/out.html
+curl -s 'https://lists.blocklist.de/lists/ssh.txt' | ./bin/geomap  ~/Downloads/GeoIP2-City.mmdb >/tmp/out.html && sleep 1 && firefox /tmp/out.html
 ```
 
 ![](demo.png)
